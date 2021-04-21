@@ -4,11 +4,12 @@ body {
 
 img {
     width: 100%;
-    height: 70%;
+    height: 50%;
 }
 
 #card-title,
-#score-keeper {
+#score-keeper,
+label {
     color: #363636;
     font-weight: 700;
     padding: .75rem 1rem;
@@ -17,9 +18,11 @@ img {
 
 #card {
     margin-top: 6vh;
+    height: 50%;
 }
 
-p#score-keeper {
+p#score-keeper,
+label {
     font-size: 2rem;
 }
 
@@ -28,6 +31,7 @@ p#score-keeper {
 }
 
 img,
-p#card-title {
+p#card-title,
+#card-body {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
