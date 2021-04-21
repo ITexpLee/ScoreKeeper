@@ -1,0 +1,33 @@
+body {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 70%;
+}
+
+#card-title,
+#score-keeper {
+    color: #363636;
+    font-weight: 700;
+    padding: .75rem 1rem;
+    margin-bottom: 0;
+}
+
+#card {
+    margin-top: 6vh;
+}
+
+p#score-keeper {
+    font-size: 2rem;
+}
+
+#score-keeper span {
+    font-size: 2.5rem;
+}
+
+img,
+p#card-title {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
