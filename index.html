@@ -23,23 +23,25 @@
                 <div id="card-body">
                     <p id="score-keeper"><span id="scorePlayer1">0</span> to <span id="scorePlayer2">0</span><br>Use the
                         Buttons below to keep score<br></p>
-                    <div class="form-group form-inline">
+                    <div class="form-group form-inline m-0">
                         <label for="selectOption">Example select</label>
                         <select class="form-control" id="selectOption">
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                            <option>11</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
                         </select>
                     </div>
                 </div>
-                <button class="btn btn-success btn-lg">+1 Player One</button>
-                <button class="btn btn-primary btn-lg">+1 Player Two</button>
-                <button class="btn btn-danger btn-lg">Reset</button>
+                <div class="buttonContainer">
+                    <button class="btn btn-success" id="buttonPlayer1">+1 Player One</button>
+                    <button class="btn btn-primary" id="buttonPlayer2">+1 Player Two</button>
+                    <button class="btn btn-danger" id="reset">Reset</button>
+                </div>
             </div>
         </div>
 
